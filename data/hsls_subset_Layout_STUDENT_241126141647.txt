@@ -1,0 +1,99 @@
+/**************************************************************************
+ *** Layout File                                                        ***
+ ***                                                                    ***
+ *** This file is designed to provide the necessary information so      ***
+ *** that NCES survey response data may be used in other statistical    ***
+ *** software packages. This file provides variable names, locations,   ***
+ *** and short descriptions for all selected variables. Additionally,   ***
+ *** for categorical variables, this file also contains the response    ***
+ *** codes and value label descriptions.                                ***
+ ***                                                                    ***
+ *** Full sample weights, replicate weights, and identification         ***
+ *** numbers are added automatically to the list of variables selected  ***
+ *** by the EDAT and are included here.                                 ***
+ *************************************************************************/
+
+/* ASCII Dataset File Name */
+HSLS_17_STUDENT_PETS_SR
+
+/* Total Record Length */
+83530
+
+/* Variable Names, Locations, and Descriptions */
+X1SEX          40    X1 Student's sex
+X1RACE         41    X1 Student's race/ethnicity-composite
+X1TXMTH        53    X1 Mathematics theta score
+X1TXMQUINT     57    X1 Mathematics quintile score
+X1P1RELATION   65    X1 Parent 1: relationship to 9th grader
+X1PAR1EDU      66    X1 Parent 1: highest level of education
+X1PAR1OCC2     68    X1 Parent 1: current/most recent occupation: 2-digit ONET code
+X1PAR1OCC_STEM170    X1 Parent 1: current/most recent occupation: STEM code 1 (sub-domain)
+X1PAR1OCC_STEM271    X1 Parent 1: current/most recent occupation: STEM code 2 (type of occupation)
+X1P2RELATION   73    X1 Parent 2: spouse's relationship to 9th grader
+X1PAR2EDU      74    X1 Parent 2: highest level of education
+X1PAR2OCC2     76    X1 Parent 2: current/most recent occupation: 2-digit ONET code
+X1PAR2OCC_STEM178    X1 Parent 2: current/most recent occupation: STEM code 1 (sub-domain)
+X1PAR2OCC_STEM279    X1 Parent 2: current/most recent occupation: STEM code 2 (type of occupation)
+X1PAREDU       81    X1 Parents'/guardians' highest level of education
+X1FAMINCOME    102   X1 Total family income from all sources 2008
+X1POVERTY      103   X1 Poverty indicator (relative to 100% of Census poverty threshold)
+X1POVERTY130   104   X1 Poverty indicator (relative to 130% of Census poverty threshold)
+X1POVERTY185   105   X1 Poverty indicator (relative to 185% of Census poverty threshold)
+X1SES          106   X1 Socio-economic status composite
+X1SESQ5        107   X1 Quintile coding of X1SES composite
+X1SES_U        108   X1 Socio-economic status composite derived with locale (urbanicity)
+X1SESQ5_U      109   X1 Quintile coding of X1SES_U composite derived with locale (urbanicity)
+X1MTHID        110   X1 Scale of student's mathematics identity
+X1MTHUTI       111   X1 Scale of student's mathematics utility
+X1MTHEFF       112   X1 Scale of student's mathematics self-efficacy
+X1MTHINT       113   X1 Scale of student's interest in fall 2009 math course
+X1SCIID        114   X1 Scale of student's science identity
+X1SCIUTI       115   X1 Scale of student's science utility
+X1SCIEFF       116   X1 Scale of student's science self-efficacy
+X1SCIINT       117   X1 Scale of student's interest in fall 2009 science course
+X1SCHOOLBEL    118   X1 Scale of student's sense of school belonging
+X1SCHOOLENG    119   X1 Scale of student's school engagement
+X1STU30OCC2    120   X1 Student occupation at age 30: 2-digit ONET code
+X1STU30OCC_STEM122   X1 Student occupation at age 30: STEM code 1 (sub-domain)
+X1STUEDEXPCT   124   X1 How far in school 9th grader thinks he/she will get
+X4EVRAPPCLG    577   X4 Whether applied to or registered at a college
+X4HS2PSMOS     585   X4 Months between high school and postsecondary education
+X4REFDEGTYPE   599   X4 Reference undergraduate degree or certificate program
+X4PS1DEGTYPE1  600   X4 First degree or certificate at first institution pursued
+X4ATPRLVLA     602   X4 Attainment and persistence at any institution: February 2016 
+X4PSENRSTLV    604   X4 Enrollment status with level in February 2016
+X4ENTMJST      606   X4 Major considering upon postsecondary entry is in a science, technology, engineering, or math (STEM) field
+X4ENTMJSTNSF   607   X4 Major considering upon postsecondary entry is in an NSF STEM field
+X4ENTRYMAJ23   609   X4 Major considering upon postsecondary entry- 23 categories
+X4RFDGMJ12     613   X4 Reference degree major, 2 digit
+X4RFDGMJSTEM   614   X4 Reference degree's first major is STEM
+X4RFMJSTNSF    615   X4 Reference degree's first major is an NSF STEM field
+X4RFDGMJ123    617   X4 Reference degree major - 23 categories
+X4RFDGCOMP     622   X4 Completion status of reference degree/certificate by February 2016
+X4RFDGSAMEMAJ  623   X4 Major for reference degree is initial considered major
+X5TRANRESP     661   Postsecondary Transcript: Transcript response status
+X5ENRATT       676   Postsecondary Transcript: Combined known enrollment and attainment as of June 2016
+S2CLGINFLU     1318  S2 C03 Person who has had most influence on thinking about education after HS
+S2CAREERINFLU  1319  S2 C04 Person who has had most influence on thinking about careers
+S4EVRATNDCLG   1915  S4 B12 Ever attended college by the end of February 2016
+S4LEFTACAD     1935  S4 B19A Left college without completing: academic reasons
+S4LEFTFAM      1936  S4 B19B Left college without completing: personal or family reasons
+S4LEFTFIN      1937  S4 B19C Left college without completing: financial reasons
+S4LEFTWRK      1938  S4 B19D Left college without completing: work, military, career reasons
+S4LEFTNONE     1939  S4 B19E Left college without completing: reason not listed
+S4BACHELOR3YRS 1940  S4 B20 Plans to enroll in a bachelor's program within the next three years
+S4EDUEXP       1941  S4 B21 Highest level of education expected
+S4EDUEXPPAR    1942  S4 B22 Highest level of education expected by parents
+S4MLEARN       1943  S4 B23A Most people can learn to be good at math
+S4MBORN        1944  S4 B23B Have to be born with the ability to be good at math
+S4SLEARN       1945  S4 B23C Most people can learn to be good at science
+S4SBORN        1946  S4 B23D Have to be born with the ability to be good at science
+S4MPERSON1     1947  S4 B24A Sees self as a math person
+S4SPERSON1     1949  S4 B24C Sees self as a science person
+S4TPERSON1     1951  S4 B25A Sees self as good at solving problems using computers
+S4EPERSON1     1953  S4 B25C Sees self as good at figuring out how mechanical/electrical things work
+S4FIELD2       1956  S4 B26B 2-digit CIP code of major most seriously considered initially
+S4MAJMAINRSN   1967  S4 B30 Main reason chose reference major
+S4CHGMAINRSN   1981  S4 B32 Main reason for changing majors
+
+/* Variable Value Labels */
